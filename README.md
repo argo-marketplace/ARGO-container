@@ -19,4 +19,4 @@ A docker container that includes:
 - pdfgrep
 - data science toolkit
 - geopandas
-- 
+- osmnx 
