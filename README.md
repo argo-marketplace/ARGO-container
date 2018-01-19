@@ -20,3 +20,8 @@ A docker container that includes:
 - data science toolkit
 - geopandas
 - osmnx 
+
+
+# Resources
+- https://acloud.guru/course/docker-fundamentals/dashboard
+- https://github.com/kurron/aws-study-group-labs/blob/f93f6d9fdf4db87bb1d7c2f1df959d3fbea31ce9/README.md
