@@ -15,8 +15,6 @@ RUN conda install -c anaconda boto
 RUN conda install -c conda-forge osmnx
 RUN conda install -c conda-forge awscli
 
-
-
 RUN apt-get update
 RUN apt-get -y install qgis python-qgis
 RUN apt-get -y install jq
