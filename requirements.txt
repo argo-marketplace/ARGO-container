@@ -9,5 +9,6 @@ seaborn
 geopandas
 rainbowstream
 awscli
+aws-shell
 #geopandas
 #osmnx
