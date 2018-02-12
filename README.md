@@ -7,7 +7,7 @@
 3. Once the image is created, launch the docker quickstart terminal and run the command docker run -it --rm -p 6080:80 -p 5900:5900 -e VNC_PASSWORD=mypassword 'imageName'
 mypassword is a user-defined alphanumeric which will be used to login to the ubuntu docker image in the next step
 
-4. Launch the browser and run the file on the IP address mentioned in the docker quickstart terminal (mostly 192.168.99.100:6080) if windows and localhost:6080 on 
+4. Launch the browser and run the file on the IP address mentioned in the docker quickstart terminal (mostly 192.168.99.100:6080) if windows and localhost:6080 on mac
 
 ### To launch a jupyter-notebook on the container, go to the LXTerminal and run the command 
 jupyter notebook--ip 127.0.0.1 --allow-root
