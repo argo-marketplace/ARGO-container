@@ -10,7 +10,7 @@
 5. Run the docker image
    - To run the docker image locally run the command `docker run -it --rm -p 6080:80 -p 5900:5900 <the-image_name-you-used in #4` 
    - Once the image starts running, launch the browser and run the file on the IP address mentioned in the docker quickstart terminal (mostly 192.168.99.100:6080)
- - #### NOTE: if using Mac, run the image on localhost:6080
+   - #### NOTE: if using Mac, run the image on localhost:6080
 
 6. Once the image is created, launch the docker quickstart terminal and execute `docker run -it --rm -p 6080:80 -p 5900:5900 -e VNC_PASSWORD=mypassword 'imageName'`
 mypassword is a user-defined alphanumeric which will be used to login to the ubuntu docker image in the next step
