@@ -30,5 +30,5 @@ RUN cd Fiona
 RUN GDAL_CONFIG=/path/to/gdal-config pip install fiona
 
 
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+# COPY requirements.txt requirements.txt
+# RUN pip install -r requirements.txt
