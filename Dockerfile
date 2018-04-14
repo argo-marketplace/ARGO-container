@@ -1,5 +1,6 @@
 FROM dorowu/ubuntu-desktop-lxde-vnc
 
+RUN apt-get -y install bzip2
 RUN curl -Ok https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
 RUN bash Anaconda3-5.0.1-Linux-x86_64.sh -b -p
 RUN rm Anaconda3-5.0.1-Linux-x86_64.sh
