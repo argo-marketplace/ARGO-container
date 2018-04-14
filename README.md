@@ -12,8 +12,9 @@
    - Once the image starts running, launch the browser and run the file on the IP address mentioned in the docker quickstart terminal (mostly 192.168.99.100:6080)
    - #### NOTE: if using Mac, run the image on localhost:6080
 
-6. Once the image is created, launch the docker quickstart terminal and execute `docker run -it --rm -p 6080:80 -p 5900:5900 -e VNC_PASSWORD=mypassword 'imageName'`
-mypassword is a user-defined alphanumeric which will be used to login to the ubuntu docker image in the next step
+6. Once the image is created, launch the docker quickstart terminal and execute `docker run -it --rm -p 6080:80 -p 5900:5900 -e VNC_PASSWORD=mypassword 'argo-container'`
+
+`mypassword` is a user-defined alphanumeric password that you can change. It will be used to login to the ubuntu docker image in the next step.
 
 7. Launch the browser and run the file on the IP address mentioned in the docker quickstart terminal (mostly 192.168.99.100:6080) if windows and localhost:6080 on mac
 
