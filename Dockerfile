@@ -1,5 +1,6 @@
 FROM dorowu/ubuntu-desktop-lxde-vnc
 
+RUN apt-get update
 RUN apt-get -y install bzip2
 RUN curl -Ok https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
 RUN bash Anaconda3-5.0.1-Linux-x86_64.sh -b -p
@@ -16,7 +17,6 @@ RUN conda install -c anaconda boto
 RUN conda install -c conda-forge osmnx
 RUN conda install -c conda-forge awscli
 
-RUN apt-get update
 RUN apt-get -y install qgis python-qgis
 RUN apt-get -y install jq
 RUN apt-get -y install python-dev libjpeg-dev libfreetype6 libfreetype6-dev zlib1g-dev
